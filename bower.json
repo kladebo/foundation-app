@@ -23,6 +23,10 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-apps": "~1.2.0"
+    "foundation-apps": "~1.2.0",
+    "angular": "^1.5.8"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
   }
 }
