@@ -1,12 +1,14 @@
-<h2>allstar-list.template.html</h2>
-<form>
-<label>
-	<span class="inline-label">
-		<span class="form-label">&gt;= 10</span>
-		<input type="text" ng-model="$ctrl.view.items" ng-change="$ctrl.checkMinimum()" ng-model-options="{debounce: 500}" placeholder="amount">
-		<span class="form-label">&lt;= 100</span>
-	</span>
-</label>
+{{ $ctrl.title }}
+<form name="settingsform">
+	<label>
+		<span class="inline-label">
+			<span class="form-label">&gt;= 10</span>
+			<input id="amount" type="number" min="10" max="100" ng-model="$ctrl.view.items" ng-model-options="{debounce: 500}" ng-change="$ctrl.checkMinimum(settingsform)" placeholder="amount" required>
+			<span class="form-label">&lt;= 100</span>
+		</span>
+	</label>
+</form>
+count: {{ $ctrl.filtered_players.length}}
 <ul>
-  <li ng-repeat="x in $ctrl.filtered_players | limitTo:$ctrl.view.items">{{x.a}}</li>
+	<li ng-repeat="x in $ctrl.filtered_players | limitTo:$ctrl.view.items">{{ $index+1 }} {{x.a}} {{x.b}} {{x.c}} {{x.d}} {{x.e}} {{x.f}} {{x.g}} {{x.h}}</li>
 </ul>

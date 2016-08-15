@@ -1,0 +1,750 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vie",
+				"view-sidebar"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"se",
+				"settingsform"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"fil",
+				"filtered_players"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"selpl",
+				"selectedPlayers"
+			],
+			[
+				"sepl",
+				"selectedPlayers"
+			],
+			[
+				"pl",
+				"players"
+			],
+			[
+				"sep",
+				"selectPlayer"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"ini",
+				"initial_players"
+			],
+			[
+				"py",
+				"pyramideArr"
+			],
+			[
+				"pr",
+				"pyramide"
+			],
+			[
+				"bra",
+				"bracketsstring"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"ret",
+				"returnList"
+			],
+			[
+				"tes",
+				"testItem"
+			],
+			[
+				"li",
+				"bracketListIndex"
+			],
+			[
+				"inde",
+				"bracketIndex"
+			],
+			[
+				"te",
+				"testItem"
+			],
+			[
+				"br",
+				"bracketsList"
+			],
+			[
+				"brack",
+				"brackets"
+			],
+			[
+				"test",
+				"testForCorrectness"
+			],
+			[
+				"mat",
+				"matchstring"
+			],
+			[
+				"mak",
+				"makeTheCall"
+			],
+			[
+				"matc",
+				"makeTheCall"
+			],
+			[
+				"las",
+				"last_opening_bracket"
+			],
+			[
+				"ind",
+				"indexOf"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"get",
+				"getindex"
+			],
+			[
+				"retur",
+				"returnlist"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"return",
+				"resultAmountArr"
+			],
+			[
+				"field",
+				"fieldvalue"
+			],
+			[
+				"fiel",
+				"fieldvalue"
+			],
+			[
+				"legn",
+				"legend	Tag"
+			],
+			[
+				"ge",
+				"getValues"
+			],
+			[
+				"pre",
+				"prettyprint"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"src",
+				"srcItem"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"A",
+				"array"
+			],
+			[
+				"to",
+				"totalTeams"
+			],
+			[
+				"sh",
+				"shuffled"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"is",
+				"isAnonymous"
+			],
+			[
+				"fire",
+				"firebaseAuth"
+			],
+			[
+				"hom",
+				"home_phone"
+			],
+			[
+				"cont",
+				"contactShow"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"p",
+				"phones"
+			],
+			[
+				"ad",
+				"addFormShow"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"er",
+				"errorMessage"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"angu",
+				"angularfire"
+			],
+			[
+				"co",
+				"contacts"
+			],
+			[
+				"an",
+				"angularfire"
+			],
+			[
+				"f",
+				"first"
+			],
+			[
+				"demo",
+				"demos-detail"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"teal",
+				"text-align"
+			],
+			[
+				"bo",
+				"bootstrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 5367,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: for (…) {…}"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bui",
+				"Build With: SASS - Compressed"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/inetpub/wwwroot/projects/foundation-app",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components/angular-route",
+		"/C/inetpub/wwwroot/projects/foundation-app/build",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets/js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/allstar-list",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/partials"
+	],
+	"file_history":
+	[
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/app.js",
+		"/C/Users/Klaas/Downloads/chat/chat/assets/js/app.js",
+		"/C/Users/Klaas/Downloads/chat/chat/assets/js/routes.js",
+		"/C/Users/Klaas/Downloads/chat/chat/index.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/home.module.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/allstar-list.template.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/home.template.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/home.component.js",
+		"/C/Users/Klaas/Downloads/chat/chat/templates/home.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets/js/routes.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/contact.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/index.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets/js/app.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets/js/foundation.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/allstar-list/allstar-list.component.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/allstar-list/allstar-list.module.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/scss/app.scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components/foundation-apps/scss/_settings.scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components/foundation-apps/scss/components/_menu-bar.scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components/foundation-apps/scss/helpers/_functions.scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/assets/css/app.css",
+		"/C/inetpub/wwwroot/projects/foundation-app/bower_components/foundation-apps/scss/components/_grid.scss",
+		"/C/inetpub/wwwroot/projects/foundation-app/gulpfile.js",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/assets/js/allstar-list/allstar-list.template.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/build/index.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/test.html",
+		"/C/inetpub/wwwroot/projects/foundation-app/client/templates/home.html",
+		"/C/Program Files (x86)/Ruby22/bin/sass-convert.bat",
+		"/C/Program Files (x86)/Ruby22/bin/bundle.bat",
+		"/C/Program Files (x86)/Ruby22/bin/bundler.bat",
+		"/C/js/app/main.min.js",
+		"/C/inetpub/wwwroot/projects/musoni/index.html",
+		"/C/inetpub/wwwroot/projects/musoni/testcase01/js/app.js",
+		"/C/inetpub/wwwroot/projects/musoni/testcase01/js/helpers.js",
+		"/C/inetpub/wwwroot/projects/musoni/app.js",
+		"/C/inetpub/wwwroot/projects/musoni/testcase01/index.html",
+		"/C/inetpub/wwwroot/projects/angular-allstar/package.json",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/app.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/gui/radio-group/radio-group.template.html",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/allstar-list/allstar-list.template.html",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/gui/radio-group/radio-group.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/gui/radio-group/radio-group.component.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/allstar-list/allstar-list.component.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/core/search.filter.js",
+		"/C/inetpub/wwwroot/jbpcommunications.nl/2016/work/sass/layout.scss",
+		"/C/inetpub/wwwroot/klaas/widget_select/version03/work/sass/layout.scss",
+		"/C/inetpub/wwwroot/klaas/widget_select/version03/work/sass/config.scss",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/gui/gui.module.js",
+		"/C/inetpub/wwwroot/klaas/javascriptexamples/ancestory.js",
+		"/C/inetpub/wwwroot/klaas/javascriptexamples/app.js",
+		"/C/inetpub/wwwroot/klaas/widget_select/version01/js/app/select-widget.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/allstar-list/allstar-list.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/core/core.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/app.config.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view1/view1_test.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view1/view1.component.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/core/allstar/allstar.service.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/karma.conf.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/.jshintrc",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/app.controller.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view2/view2.component.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view2/view2_test.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/css/app.scss",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view1/view1.template.html",
+		"/C/inetpub/wwwroot/projects/angular-allstar/.gitignore",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/css/app.css",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/css/a-config.scss",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view2/view2.template.html",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view2/view2.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/app/view1/view1.module.js",
+		"/C/inetpub/wwwroot/projects/angular-allstar/README.md",
+		"/C/inetpub/wwwroot/projects/test/klaas.txt",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/app.module.js",
+		"/C/Program Files/Git/mingw64/libexec/git-core/git-rebase--interactive",
+		"/C/inetpub/wwwroot/projects/myFirstApp/README.md",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/json/allstarfull.json",
+		"/C/inetpub/wwwroot/klaas/angular-requirejs-seed/.git/refs/remotes/origin/HEAD",
+		"/C/inetpub/wwwroot/projects/myFirstApp/.git/logs/refs/remotes/origin/HEAD",
+		"/C/inetpub/wwwroot/klaas/angular-requirejs-seed/.git/logs/refs/remotes/origin/HEAD",
+		"/C/inetpub/wwwroot/projects/myFirstApp/.git/refs/remotes/origin/HEAD",
+		"/C/inetpub/wwwroot/projects/myFirstApp/package.json",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/table/table.controller.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/case/case.service.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/json/cases.json",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/example.component.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view2/view2.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view1/view1.component.spec.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/user/user.directive.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/user/user.controller.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/prettyprint.directive.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/base.css",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/app.scss",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/base.scss",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/caution.component.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/user/user.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/wrap/wrap.directive.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/gui.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view2/view2.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/filename.component.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/gui/accordeon.scss",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/accordeon.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/bower_components/code-prettify/docs/getting_started.md",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view1/view1.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/a-config.scss",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/design.scss",
+		"/C/inetpub/wwwroot/klaas/demoStore/app/contacts/contacts.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/item/item.directive.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view2/view2.component.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/helpers/helpers.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/version/version.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/helpers/helpers.service.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view1/view1.component.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/view1/view1.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/app.css",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/core/core.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/design.css",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/app.css",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/team/team.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/.gitignore",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/lightbox/lightbox.template.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/css/a-config.css.map",
+		"/C/Users/Klaas/Downloads/foundation-icons/foundation-icons/preview.html",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/item/item.template.html",
+		"/C/Users/Klaas/Downloads/foundation-icons/foundation-icons/foundation-icons.css",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/accordeon.directive.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/accordeon.controller.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/item/item.module.js",
+		"/C/inetpub/wwwroot/projects/myFirstApp/app/gui/accordeon/accordeon.module.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.scss",
+			"",
+			"app",
+			"",
+			"C:\\inetpub\\wwwroot\\klaas\\demoStore\\app",
+			"C:\\inetpub\\wwwroot\\klaas\\angular-requirejs-seed\\app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ngRoute",
+			"@name ngRoute",
+			"shallowCopy",
+			"%menu-bar",
+			".menu-bar",
+			".menu-bar > li > a",
+			"rem-calc",
+			"breakpoint",
+			"breakpont",
+			"allstar",
+			"FoundationApi",
+			"ui.router",
+			"foundation.dynamicRouting",
+			"angular",
+			"value.join",
+			"selectedPlayers",
+			"handler",
+			"render",
+			"arg",
+			"p2",
+			"allstar",
+			"ddata",
+			"klaas",
+			"UserCtrl",
+			"ttalMembers",
+			"totalMenbers",
+			"sanitize",
+			"version",
+			"myApp",
+			"$scope.id",
+			"Firebase",
+			"angular.mock",
+			"angularMocks",
+			"'myApp",
+			"'myApp'",
+			"myApp.view1",
+			"demos",
+			"demoStore",
+			"myApp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"matchstring",
+			"item_list",
+			"totalMembers",
+			"ttalMembers"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 226.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 222.0
+	},
+	"pinned_build_system": "",
+	"project": "foundation-app.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 616.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -5,26 +5,27 @@
 
 	.component('allstarList', {
 		templateUrl: 'templates/allstar-list.template.html',
+		bindings: {
+			players: '<',
+			view: '<',
+			// onClick: '@'
+		},
 		controller: ['$http',
 		function allstarListCtrl($http) {
 			var self = this;
+			self.title = 'Allstar List';
 
-			self.view = {
-				'items': 10
-			};
+			self.$onChanges = function (changes) {
+				console.info(self.title, changes);
+				if(changes.players.currentValue){
+					self.filtered_players = changes.players.currentValue;
+				}
 
-			self.checkMinimum = function(){
-				if(self.view.items < 10 || self.view.items > 100){
-					self.view.items = 10;
+				if(changes.view && changes.view.currentValue){
+					self.view = changes.view.currentValue;
 				}
 			};
 
-			// self.filtered_players = '';
-
-			$http.get('assets/json/allstarfull.json').then(function(response){
-				console.log(response);
-				self.filtered_players = response.data.players;
-			});
 		}]
 	});
 

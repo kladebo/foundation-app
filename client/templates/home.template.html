@@ -1,0 +1,25 @@
+---
+name: home
+url: /
+---
+<div class="grid-block" ng-controller="HomeCtrl">
+	<div id="sidebar" class="view-sidebar panel" zf-panel="" zf-closable="panel">
+		<div class="view-search grid-content shrink">
+			<allstar-form view="view" on-edit="filterPlayers(form)"></allstar-form>
+		</div>
+		<div class="grid-content">
+			<a zf-close="" class="hide-for-medium close-button">x</a>
+		</div>
+	</div>
+	<div class="view-main">
+		<div class="grid-block">
+			<div class="grid-container">
+				<a class="small secondary expand button hide-for-medium" zf-toggle="sidebar">Show Sidebar</a>
+				<p>jaap</p>
+				<h3>klaas</h3>
+				HomeCtrl: {{ app.title }}
+				<allstar-list players="filtered_players" view="view"></allstar-list>
+			</div>
+		</div>
+	</div>
+</div>

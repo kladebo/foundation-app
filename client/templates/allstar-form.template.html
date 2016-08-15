@@ -1,0 +1,19 @@
+{{ $ctrl.title }}
+<form name="allstar">
+	<label>playerID
+		<input type="text" name="a" ng-model="$ctrl.view.fields.a.value" ng-change="$ctrl.changed(allstar)" placeholder="playerID:">
+	</label>
+	<label>yearID
+		<input type="text" name="b" ng-model="$ctrl.view.fields.b.value" ng-change="$ctrl.changed(allstar)" placeholder="yearID:">
+	</label>
+	<fieldset>
+		<legend>gameNum</legend>
+		<span ng-repeat="x in $ctrl.view.fields.c.list">
+			<input type="checkbox" name="c" id="check_gameNum{{x}}" value="{{x}}" ng-model="$ctrl.view.fields.c.value[x]" ng-change="$ctrl.changed(allstar);"><label for="check{{x}}">{{x}}</label>
+		</span>
+	</fieldset>
+	<button ng-click="$ctrl.edit(allstar);" class="button">edit</button>
+	<ul>
+		<li ng-repeat="x in $ctrl.view.fields">{{ x }}</li>
+	</ul>
+</form>

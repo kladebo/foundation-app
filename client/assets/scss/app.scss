@@ -1,2 +1,54 @@
 @import "settings";
 @import "foundation";
+
+// custom styles
+
+// layout
+
+.view-sidebar{
+	background: #ececece;
+	padding-top: 3rem;
+}
+.view-sidebar.is-active{
+	// display: block;
+}
+.view-main{
+	background: pink;
+	display: block;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+@include breakpoint(medium) {
+	.view-sidebar{
+		background: #e6e6e6;
+		display: flex;
+		flex: 0 0 25%;
+		flex-direction: column;
+		height: auto;
+		max-width: 25%;
+		padding-top: 1rem;
+		position: relative;
+		box-shadow: 0;
+	}
+	.view-main{
+		background: #ffd9df;
+		display: flex;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+}
+@include breakpoint(large) {
+	.view-sidebar{
+		background: #e0e0e0;
+		// display: flex;
+		flex: 0 0 16.6667%;
+		max-width: 16.6667%;
+	}
+	.view-main{
+		background: #ffe5e9;
+		// display: flex;
+		flex: 0 0 83.3333%;
+		max-width: 83.3333%;
+	}
+}

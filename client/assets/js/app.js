@@ -2,6 +2,7 @@
   'use strict';
 
   angular.module('application', [
+    // 'ngRoute',
     'ui.router',
     'ngAnimate',
 
@@ -11,7 +12,9 @@
     'foundation.dynamicRouting.animations',
 
     //custom
-    'allstar.list'
+    'home',
+    'allstar.list',
+    'allstar.form'
   ])
     .config(config)
     .run(run)
@@ -28,6 +31,7 @@
     });
 
     $locationProvider.hashPrefix('!');
+
   }
 
   function run() {

@@ -45,8 +45,9 @@ var paths = {
   // These files are for your app's JavaScript
   appJS: [
     'client/assets/js/app.js',
-    'client/assets/js/allstar-list/allstar-list.module.js',
-    'client/assets/js/allstar-list/allstar-list.component.js'
+    'client/assets/js/**/*.module.js',
+    'client/assets/js/**/*.component.js',
+    'client/assets/js/**/*.controller.js'
   ]
 };
 
