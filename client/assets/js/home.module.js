@@ -1,6 +1,6 @@
 (function () {
 	'use strict';
 
-	angular.module('home', []);
+	angular.module('home', ['allstar.list','allstar.form']);
 
 })();

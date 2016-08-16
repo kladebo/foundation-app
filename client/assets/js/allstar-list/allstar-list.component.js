@@ -16,7 +16,7 @@
 			self.title = 'Allstar List';
 
 			self.$onChanges = function (changes) {
-				console.info(self.title, changes);
+				// console.info(self.title, changes);
 				if(changes.players.currentValue){
 					self.filtered_players = changes.players.currentValue;
 				}

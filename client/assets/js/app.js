@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('application', [
-    // 'ngRoute',
+    'utils',
     'ui.router',
     'ngAnimate',
 
@@ -36,7 +36,7 @@
 
   function run() {
     FastClick.attach(document.body);
-    console.log(angular.version);
+    // console.log(angular.version);
   }
 
 })();

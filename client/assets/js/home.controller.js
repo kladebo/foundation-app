@@ -11,69 +11,67 @@
 			self.app.subtitle = 'angular app';
 
 			self.view = {
-				'items': 15,
+				'resultCountList': [10,25,50,100],
+				'resultCount': 10,
 				'fields': {
-					a:{'id': 'a'},
-					b:{'id': 'b'},
-					c:{'id': 'c'},
-					d:{'id': 'd'},
-					e:{'id': 'e'},
-					f:{'id': 'f'},
-					g:{'id': 'g'}
+					a:{'id': 'a',filter:'',list:false},
+					b:{'id': 'b',filter:'',list:true},
+					c:{'id': 'c',filter:'',list:true},
+					d:{'id': 'd',filter:'',list:false},
+					e:{'id': 'e',filter:'',list:true},
+					f:{'id': 'f',filter:'',list:true},
+					g:{'id': 'g',filter:'',list:true},
+					h:{'id': 'h',filter:'',list:true}
 				}
 			};
 
 
 			$http.get('assets/json/allstarfull.json').then(function(response){
-				self.players = response.data.players;
+				var data = response.data;
+
+				// create main vars
+				self.players = data.players;
+				angular.forEach(self.players, function (player, index) {
+					player.id = 'p_'+index;
+				})
+
+
 				self.filtered_players = angular.copy(self.players);
 
-				self.view.fields.c.list = makeUnique(self.players, 'c');
-			});
+				self.headers = data.headers;
+				
 
-			self.filterPlayers = function (arg) {
-				// console.log(arg);
 
-				var filters = self.view.fields;
-				var players = angular.copy(self.players);
-
-				// self.filtered_players = angular.copy(self.players);
-				angular.forEach(filters, function (obj, iterator, context){
-					if(obj.value){
-						// console.log(obj, iterator);
-						players = players.filter(function(item){
-							//console.log(item[obj.id].indexOf(obj.value) >= 0);
-							//console.log($filter('json')(obj,6), typeof obj.value);
-
-							if(typeof obj.value === 'string'){
-								return item[obj.id].toString().indexOf(obj.value.toString()) === 0;
-							}else if(typeof obj.value === 'object'){
-								// return match(obj.value)
-								var t = [];
-								var v = '';
-								for(var i in obj.value){
-									if(obj.value[i] === true){
-										t.push(i);
-									}
-								}
-								t = t.join(',');
-								// console.log(t);
-								if(t === ''){
-									return true;
-								}else{
-									t = ','+t+',';
-									v = ','+item[obj.id].toString()+',';
-									// console.log(t,v);
-									return t.indexOf(v) >= 0;
-									// return false;
-								}
-
-								// return false;
-							}
-						});
+				// copy header info to view Obj
+				angular.forEach(self.headers, function(header){
+					if(self.view.fields[header.id]){
+						self.view.fields[header.id].label = header.value;
 					}
 				});
 
+
+
+				// make some lists out of the data
+				angular.forEach(self.view.fields, function(field){
+					if(field.list){
+						field.list = makeUnique(self.players, field.id);
+					}
+				});
+
+
+				// check for correctnes
+				// console.log($filter('json')(self.view, 6));
+			});
+
+			self.filterPlayers = function (arg) {
+
+
+				var players = angular.copy(self.players);
+
+				angular.forEach(self.view.fields, function(field){
+					players = $filter('allstarFilter')(players, field.id, field.value);
+				});
+				
 				self.filtered_players = players;
 			};
 

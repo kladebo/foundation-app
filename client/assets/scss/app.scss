@@ -15,8 +15,12 @@
 .view-main{
 	background: pink;
 	display: block;
-    flex: 1 1 auto;
-    overflow-y: auto;
+	flex: 1 1 auto;
+	overflow-y: auto;
+}
+
+form.inline{
+	display: inline-block;
 }
 
 @include breakpoint(medium) {
@@ -42,13 +46,52 @@
 	.view-sidebar{
 		background: #e0e0e0;
 		// display: flex;
-		flex: 0 0 16.6667%;
-		max-width: 16.6667%;
+		// flex: 0 0 16.6667%;
+		// max-width: 16.6667%;
 	}
 	.view-main{
 		background: #ffe5e9;
 		// display: flex;
-		flex: 0 0 83.3333%;
-		max-width: 83.3333%;
+		// flex: 0 0 83.3333%;
+		// max-width: 83.3333%;
+	}
+}
+
+table.responsive{
+	width: 100%;
+}
+table.responsive thead{
+	display: none;
+}
+table.responsive td:before{
+	background: silver;
+	content: attr(data-th);
+	display: inline-block;
+	width: 30%;
+	font-weight: bold;
+}
+table.responsive td{
+	display: block;
+	// padding: .5rem;
+}
+table.responsive td:first-child { 
+	background: #666; color: #fff; 
+}
+
+
+@include breakpoint(medium) {
+	table.responsive td:before{
+		content: initial;
+	}
+	table.responsive td{
+		display: table-cell;
+	}
+
+	table.responsive td:first-child { 
+		color: initial;
+		background: initial; 
+	}
+	table.responsive thead{
+		display: table-header-group;
 	}
 }

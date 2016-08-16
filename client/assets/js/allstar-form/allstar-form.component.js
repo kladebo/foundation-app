@@ -16,7 +16,7 @@
 
 
 			self.$onChanges = function (changes) {
-				console.info(self.title, changes);
+				// console.info(self.title, changes);
 				if(changes.view.currentValue){
 					self.view = changes.view.currentValue;
 				}
@@ -24,7 +24,7 @@
 
 
 			self.changed = function(form){
-				console.log('changed:', '\nallstar',allstar, '\nform',form);
+				// console.log('changed:', '\nallstar',allstar, '\nform',form);
 				self.onEdit({'form' :form});
 			};
 

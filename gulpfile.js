@@ -47,7 +47,8 @@ var paths = {
     'client/assets/js/app.js',
     'client/assets/js/**/*.module.js',
     'client/assets/js/**/*.component.js',
-    'client/assets/js/**/*.controller.js'
+    'client/assets/js/**/*.controller.js',
+    'client/assets/js/**/*.filter.js'
   ]
 };
 
