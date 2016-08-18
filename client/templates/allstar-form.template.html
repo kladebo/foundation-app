@@ -1,42 +1,69 @@
-<h2>{{ $ctrl.title }}</h2>
-<form name="allstar">
-	<div>
-		<label>{{$ctrl.view.fields.a.label}}
-			<input type="text" name="a" ng-model="$ctrl.view.fields.a.value" ng-change="$ctrl.changed(allstar)" placeholder="playerID:">
-		</label>
+<div class="ng-cloak">
+	<h2>{{ $ctrl.title }}</h2>
+	<form name="allstar">
+		<div>
+			<label>{{ $ctrl.view.getField('a').label }}</label>
+			<input type="text" name="{{$ctrl.view.getField('a').id}}" ng-model="$ctrl.view.getField('a').value" ng-change="$ctrl.changed()" placeholder="playerID:">
+			
+		</div>
+		<div>
+			<label>{{ $ctrl.view.getField('b').label }}
+				<input type="text" name="{{$ctrl.view.getField('b')}}" ng-model="$ctrl.view.getField('b').value" ng-change="$ctrl.changed()" placeholder="yearID:">
+			</label>
+		</div>
+		<div>
+			<fieldset>
+				<legend><label>{{ $ctrl.view.getField('c').label}}</label></legend>
+				<span ng-repeat="x in $ctrl.view.getField('c').list">
+					<input type="checkbox" name="c" id="check_c_{{x.id}}" ng-value="{{x.id}}" ng-model="$ctrl.view.getField('c').value[x.id]" ng-change="$ctrl.changed();">
+					<label for="check_c_{{x.id}}">{{x.id}}</label>
+				</span>
+			</fieldset>
+		</div>
+		<div>
+			<label>{{ $ctrl.view.getField('d').label }}</label>
+			<select id="{{$ctrl.view.getField('d')}}" ng-model="$ctrl.view.getField('d').value" ng-change="$ctrl.changed();">
+				<option value="">-- choose --</option>
+				<option ng-repeat="x in $ctrl.view.getField('d').list" ng-value="x.id">{{x.id}}</option>
+			</select>
+			
+		</div>
+		<div>
+			<label>{{ $ctrl.view.getField('e').label }}</label>
+			<select id="{{ $ctrl.view.getField('e') }}" ng-model="$ctrl.view.getField('e').value" ng-change="$ctrl.changed();">
+				<option value="">-- choose --</option>
+				<option ng-repeat="x in $ctrl.view.getField('e').list" ng-value="x.id">{{x.id}}</option>
+			</select>
+		</div>
+		<div>
+			<fieldset>
+				<legend>
+					<label>{{ $ctrl.view.getField('f').label }}</label></legend>
+					<span>
+						<input type="radio" name="{{$ctrl.view.getField('f')}}" id="radio_f_none" value="" ng-model="$ctrl.view.getField('f').value" ng-click="$ctrl.changed();">
+						<label for="radio_f_none">All, or:</label>
+					</span>
+					<span ng-repeat="x in $ctrl.view.getField('f').list">
+						<input type="radio" name="{{$ctrl.view.getField('f')}}" id="radio_f_{{x.id}}" ng-value="x.id" ng-model="$ctrl.view.getField('f').value" ng-click="$ctrl.changed();">
+						<label for="radio_f_{{x.id}}">{{x.id}}</label>
+					</span>
+				</fieldset>
+			</div>
+			<div>
+				<label>{{ $ctrl.view.getField('g').label }}</label>
+				<select id="{{$ctrl.view.getField('g')}}" ng-model="$ctrl.view.getField('g').value" ng-change="$ctrl.changed();">
+					<option value="">-- choose --</option>
+					<option ng-repeat="x in $ctrl.view.getField('g').list" ng-value="x.id">{{x.id}}</option>
+				</select>
+			</div>
+
+			<div>
+				<label>{{ $ctrl.view.getField('h').label }}</label>
+				<select id="{{$ctrl.view.getField('h')}}" ng-model="$ctrl.view.getField('h').value" ng-change="$ctrl.changed();">
+					<option value="">-- choose --</option>
+					<option ng-repeat="x in $ctrl.view.getField('h').list" ng-value="x.id">{{x.id}}</option>
+				</select>
+			</div>
+			<button ng-click="$ctrl.edit();" class="button">edit</button>
+		</form>
 	</div>
-	<div>
-		<label>{{$ctrl.view.fields.b.label}}
-			<input type="text" name="b" ng-model="$ctrl.view.fields.b.value" ng-change="$ctrl.changed(allstar)" placeholder="yearID:">
-		</label>
-	</div>
-	<div>
-		<label>{{$ctrl.view.fields.c.label}}</label>
-		<span ng-repeat="x in $ctrl.view.fields.c.list">
-			<input type="checkbox" name="c" id="check_c_{{x}}" value="{{x}}" ng-model="$ctrl.view.fields.c.value[x]" ng-change="$ctrl.changed(allstar);"><label for="check_c_{{x}}">{{x}}</label>
-		</span>
-	</div>
-	<div>
-		<label>{{$ctrl.view.fields.e.label}}
-			<select id="e" ng-model="$ctrl.view.fields.e.value" ng-options="x for x in $ctrl.view.fields.e.list | orderBy:x:false" ng-change="$ctrl.changed();"><option value=""></option></select>
-		</label>
-	</div>
-	<div>
-		<label>{{$ctrl.view.fields.f.label}}</label>
-		<span>
-			<input type="radio" name="f" id="radio_f_none" value="" ng-model="$ctrl.view.fields.f.value" ng-click="$ctrl.changed();"><label for="radio_f_none">All, or:</label>
-		</span>
-		<span ng-repeat="x in $ctrl.view.fields.f.list">
-			<input type="radio" name="f" id="radio_lf_{{x}}" value="{{x}}" ng-model="$ctrl.view.fields.f.value" ng-click="$ctrl.changed();"><label for="radio_f_{{x}}">{{x}}</label>
-		</span>
-	</div>
-	<div>
-		<label>{{$ctrl.view.fields.g.label}}
-			<select id="g" ng-model="$ctrl.view.fields.g.value" ng-options="x for x in $ctrl.view.fields.g.list | orderBy:x:false" ng-change="$ctrl.changed();"><option value=""></option></select>
-		</label>
-	</div>
-	<button ng-click="$ctrl.edit(allstar);" class="button">edit</button>
-	<ul>
-		<li ng-repeat="x in $ctrl.view.fields">{{ x }}</li>
-	</ul>
-</form>

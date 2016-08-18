@@ -1,34 +1,36 @@
-<h2>{{ $ctrl.title }}</h2>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
-<form name="settingsform">
-	<label for="result" class="large-2">results
-		<select id="result" ng-model="$ctrl.view.resultCount" ng-options="x for x in $ctrl.view.resultCountList"></select>
-	</label>
-</form>
+<div class="ng-cloak grid-content">
+	<h2>{{ $ctrl.title }}</h2>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+	<form name="settingsform">
+		<label for="result" class="large-2">results
+			<select id="result" ng-model="$ctrl.view.resultCount" ng-options="x for x in $ctrl.view.resultCountList"></select>
+		</label>
+	</form>
 
 
-<table border="1" class="responsive">
-<caption>count: {{ $ctrl.filtered_players.length}}</caption>
-	<thead>
-		<tr>
-			<th></th>
-			<th ng-repeat="y in $ctrl.view.fields">{{ y.label }}</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr ng-repeat="x in $ctrl.filtered_players | limitTo:$ctrl.view.resultCount">
-			<td data-th="select:">
-				<form class="inline">
-					<input type="checkbox" ng-model="x.selected" onmousedown="event.preventDefault();">
-				</form>
-				{{ $index + 1 }}/{{ x.id }} 
-			</td>
-			<td ng-repeat="y in $ctrl.view.fields" data-th="{{y.label}}:">{{ x[y.id] }}</td>
-		</tr>
-	</tbody>
-	<tbody ng-show="$ctrl.filtered_players.length === 0">
-		<tr>
-			<td colspan="{{$ctrl.headers.length+1}}" class="text-center"> No teams were found...</td>
-		</tr>
-	</tbody>
-</table>
+	<table border="1" class="responsive">
+		<caption>count: {{ $ctrl.filtered_players.length}}</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th ng-repeat="y in $ctrl.view.fields">{{ y.label }}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="x in $ctrl.filtered_players | limitTo:$ctrl.view.resultCount">
+				<td data-th="select:">
+					<form class="inline">
+						<input type="checkbox" ng-model="x.selected" onmousedown="event.preventDefault();">
+					</form>
+					{{ $index + 1 }}/{{ x.id }} 
+				</td>
+				<td ng-repeat="y in $ctrl.view.fields" data-th="{{y.label}}:">{{ x[y.id] }}</td>
+			</tr>
+		</tbody>
+		<tbody ng-show="$ctrl.filtered_players.length === 0">
+			<tr>
+			<td colspan="{{$ctrl.view.fields.length+1}}" class="text-center"> {{$ctrl.view.fields}}  No teams were found...</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
